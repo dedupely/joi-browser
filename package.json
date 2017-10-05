@@ -5,7 +5,7 @@
   "main": "./dist/joi-browser.js",
   "scripts": {
     "prepublish": "npm run build-webpack",
-    "build-webpack": "webpack && uglifyjs dist/joi-browser.js -c warnings=false -m | ntee dist/joi-browser.min.js | ngzip > dist/joi-browser.min.js.gz",
+    "build-webpack": "webpack && uglifyjs dist/joi-browser.js -c warnings=false -m",
     "test": "karma start --single-run"
   },
   "author": "Jeff Barczewski",
