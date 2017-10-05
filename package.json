@@ -1,6 +1,6 @@
 {
   "name": "joi-browser-es",
-  "version": "10.6.2",
+  "version": "10.6.3",
   "description": "joi object schema validation bundled for the browser",
   "main": "./dist/joi-browser.js",
   "scripts": {
